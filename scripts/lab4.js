@@ -30,7 +30,7 @@ function sumValues(num1, num2, add) {
  */
 function discountPrices(prices, discount) {
     if (!Array.isArray(prices) || typeof discount !== 'number' || discount < 0 
-        || discount > 1 || prices.length === 0) {
+        || discount > 1 || prices.length === 0)
     {
         return false;
     }
